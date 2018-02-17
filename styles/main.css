@@ -1,0 +1,150 @@
+*{
+  margin: 0px;
+  padding: 1px;
+}
+.a{
+  background-color: turquoise;
+  height: 700px;
+  width: 600px;
+}
+.a>div{
+  height: 120px;
+  width:110px;
+  background-color: yellow;
+  margin-left: 60px;
+  margin-top: 60px;
+  display: inline-block;
+}
+.a>div>div:first-child{
+  width: 90px;
+  height: 100px;
+  margin:0px auto;
+  margin-top:10px;
+  border-radius: 50px;
+  background-color: violet;
+}
+.a>nav{
+height: 170px;
+width: 160px;
+background-color: blue;
+margin-left: 80px;
+margin-top: 50px;
+display:inline-block;
+}
+.a>nav>nav:first-child{
+  width: 140px;
+  height: 150px;
+  margin:0px auto;
+  margin-top:10px;
+  border-radius: 80px;
+  background-color: lime;
+}
+  .a>section{
+    height: 170px;
+    width: 500px;
+    background-color: green;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: table;
+  }
+.a>section>section{
+  height: 150px;
+  width: 90px;
+  background-color: coral;
+  margin-left: 55px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.a>section>section:first-child>section{
+height:30px;
+width: 30px;
+background-color:white;
+margin-left:25px;
+margin-top: 15px;
+}
+.a>section>section:nth-child(2)>section{
+height:30px;
+width: 30px;
+background-color:white;
+margin-left:25px;
+margin-top: 10px;
+}
+.a>section>section:nth-child(2)>section{
+height:130px;
+width: 50px;
+background-color:white;
+margin-left:20px;
+margin-top: 10px;
+border-radius: 40px 40px;
+}
+
+.a>section>section:nth-child(3)>section{
+height:40px;
+width: 40px;
+background-color:white;
+margin-left:25px;
+margin-top: 05px;
+border-radius: 40px;}
+/* ****segunda pagina*** */
+
+
+.t{
+  background-color: violet;
+  height: 700px;
+  width:600px;
+}
+.t>div{
+  height: 230px;
+  width:230px;
+  background-color: aqua;
+  margin-left: 40px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.t>div>div{
+  width: 90px;
+  height: 100px;
+  margin:0px auto;
+  margin-left: 15px;
+  margin-top:08px;
+  border-radius: 50px;
+  background-color: lime;
+display:inline-block;
+}
+.t>nav{
+  height: 140px;
+  width:240px;
+  background-color: aqua;
+  margin-left: 150px;
+  margin-top: 40px;
+
+}
+.t>nav>nav{
+width: 100px;
+height: 110px;
+margin:0px auto;
+margin-left: 10px;
+margin-top:20px;
+border-radius: 60px;
+background-color: lime;
+  display:inline-block;
+}
+.t>section{
+  height: 140px;
+  width:80px;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 50px;
+  display:inline-block;
+}
+.t>section>section{
+width: 60px;
+height: 100px;
+margin: 0px auto;
+margin-left: 10px;
+margin-top:15px;
+margin-bottom: 10px;
+border-radius: 50px;
+background-color: lime;
+  display:inline-block;
+}
